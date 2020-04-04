@@ -1,3 +1,9 @@
+eureka:
+ client:
+   service-url:
+       defaultZone: http://localhost:8761/eureka
+ instance:
+   hostname: productserver #域定义链接
 datasource:
   driver-class-name: com.mysql.cj.jdbc.Driver
   username: root
